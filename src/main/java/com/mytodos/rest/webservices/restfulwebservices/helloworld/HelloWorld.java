@@ -12,6 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorld {
 
 	
+	/* adding multi line comment to commit the change and push it to 
+	 * github account
+	 */
+	
 //	@RequestMapping(method = RequestMethod.GET, path = "/helloWorld")
 	@GetMapping(path = "/hello-world")
 	public String helloWorld() {
